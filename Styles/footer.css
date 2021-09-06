@@ -1,0 +1,19 @@
+.footer_columns li {
+    line-height: 2;
+}
+
+.footer_columns ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+footer {
+    display:flex;
+    justify-content: space-around;
+    background-color:#F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: left;
+}

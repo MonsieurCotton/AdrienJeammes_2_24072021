@@ -1,0 +1,27 @@
+@media screen and (max-width: 576px) {
+
+    .top_section {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        width: 20%;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer_columns {
+        margin-left: 1.5rem;
+    }
+
+    .main_menu_signup {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}    

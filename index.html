@@ -1,55 +1,112 @@
 <!DOCTYPE html>
 <html>
+    <!-- META TAGS -->
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="styles/styles.css" />
+        <link rel="stylesheet" href="styles/header.css" />
+        <link rel="stylesheet" href="styles/hosting.css" />
+        <link rel="stylesheet" href="styles/activities.css" />
+        <link rel="stylesheet" href="styles/footer.css" />
+        <link rel="stylesheet" href="styles/mobile.css" />
+        <link rel="stylesheet" href="styles/tablet.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"> 
         <title>Reservia</title>
     </head>
 
     <body>
         <div id="bloc_page">
+            <!-- HEADER -->
             <header>
                 <div class="top_section">
                     <div class="logo">
-                        <img src="\C:\Users\Adrien\Documents\Formation Dev Web\Projet+2+-+Reservia+FR\Projet 2 - Reservia\images\logo\Reservia@3x.png" alt="Logo Reservia"/>
+                        <img src="img/Reservia@3x.svg" alt="Logo Reservia"/>
                     </div>
-                    <div class="menu">
+                    <div class="main_menu">
                         <nav>
-                            <ul class="main_menu">
-                                <li><a href="#">Hebergement</a></li>
-                                <li><a href="#">Activite</a></li>
-                                <li><a href="#">S'inscrire</a></li>
+                            <ul class="main_menu_list">
+                                <li class="main_menu_hosting"><a href="#hosting">Hebergement</a></li>
+                                <li class="main_menu_activities"><a href="#">Activités</a></li>
+                                <li class="main_menu_signup"> <a href="#">S'inscrire</a></li>
                             </ul>
                         </nav>
                     </div>
                 </div>
             </header>
+            <!-- HEADER -->
 
-            <section>
+            <!-- SEARCH -->
+            <section class="search">
                 <h1>Trouvez votre hébergement pour vos vacances de rêve</h1>
                 <p>En plein centre ville ou en pleine nature</p>
+                <form class="search_form" action="/traitement.php" method="GET">
+                    <div class="search_form_icon">
+                        <i class="fa fa-map-marker-alt"></i>
+                    </div>
+                    <input class="search_form_input" type="search" placeholder="Marseille, France" size="1">
+                    <button class="search_form_input_submit">
+                      <div class="search_form_input_submit_text">Rechercher</div>
+                    </button>
+                </form>
+                <div class= "search_filters">
+                    <h3 class="search_filters_title">Filtres</h3>
+                    <div class="search_filters_choices">
+                        <div class="search_filters_choices_icon">
+                            <i class="fas fa-money-bill-wave search_filters_choices_icon_color"></i>
+                        </div>
+                        <div class="search_filters_choices_name">Economique</div>
+                    </div>
+                    <div class="search_filters_choices">
+                        <div class="search_filters_choices_icon">
+                            <i class="fas fa-child search_filters_choices_icon_color"></i>
+                        </div>
+                        <div class="search_filters_choices_name">Familial</div>
+                    </div>
+                    <div class="search_filters_choices">
+                        <div class="search_filters_choices_icon">
+                            <i class="fas fa-heart search_filters_choices_icon_color"></i>
+                        </div>
+                        <div class="search_filters_choices_name">Romantique</div>
+                    </div>
+                    <div class="search_filters_choices">
+                        <div class="search_filters_choices_icon">
+                            <i class="fas fa-dog search_filters_choices_icon_color"></i>
+                       </div>
+                      <div class="search_filters_choices_name">Animaux autorisés</div>
+                    </div>   
+                </div>
+                <div class="search_info">
+                    <div class="search_info_icon">
+                        <i class="fas fa-info search_filters_choices_icon_color"></i>
+                    </div>
+                    <p class="search_info_text">Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
             </section>        
-                    
-            <section>
-                <h2>Hébérgements à Marseille</h2>
+            <!-- SEARCH -->
+            
+            <!-- HOSTING -->
+            <section class="hosting" id="hosting">
+                <h2 class="hosting_title">Hébérgements à Marseille</h2>
                 <p></p>
             </section>            
                 
-            <aside>                
-                <h2>Les plus populaires</h2>
+            <aside class="most_popular">                
+                <h2 class= "most_popular_title">Les plus populaires</h2>
                 <p>Lorem ipsum dolor sit amet</p>        
             </aside>
 
-            <section>
+            <section class="activities">
                 <h2>Activités à Marseille</h2>
                 <p></p>
             </section>
             
                     
             <footer>
-                <div class="footer_column">
+                <div class="footer_columns">
                     <h3>A Propos</h3>
                     <nav>
                         <ul>
@@ -59,7 +116,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="footer_column">
+                <div class="footer_columns">
                     <h3>Nos hébergements</h3>
                     <nav>
                         <ul>
@@ -68,7 +125,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="footer_column">
+                <div class="footer_columns">
                     <h3>Assistance</h3>
                     <nav>
                         <ul>
