@@ -1,4 +1,9 @@
 @media screen and (max-width: 576px) {
+    
+    #bloc_page {
+        margin: auto;
+        font-family: 'Raleway', sans-serif;
+    }
 
     .top_section {
         display: flex;
@@ -19,9 +24,13 @@
 
     .main_menu_signup {
         position: absolute;
-        right: 0px;
-        top: 0px;
-        font-size: 1.2rem;
+        right: 5px;
+        top: 40px;
+        font-size: 1.3rem;
         font-weight: bold;
+    }
+
+    ul.main_menu_list {
+
     }
 }    
