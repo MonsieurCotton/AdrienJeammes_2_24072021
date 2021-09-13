@@ -15,8 +15,61 @@
         margin: 10px;
     }
 
+    .main_menu_list {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 5px 5px 5px 0px;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .main_menu_list li:first-child {
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+        padding-bottom: 10px;
+
+    }
+
+    .main_menu_list li:nth-child(2) {
+        border-bottom: 2px solid #F2F2F2;
+        border-top: none;
+        padding-bottom: 10px;
+
+    }
+
+    .main_menu_list li:nth-child(2):hover {
+        border-bottom: 2px solid #0065FC;
+        border-top: none;
+        padding-bottom: 10px;
+    }
+
+    .main_menu_list ul {
+        padding: 0px;
+    }
+
+    .main_menu_hosting,
+    .main_menu_activities {
+        width: 187px;
+
+    }
+
     h1 {
         margin: 20px 40px 5px 20px;
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h4 {
+        font-size: 16px;
+        margin-left: 25px;
     }
 
     footer {
@@ -31,7 +84,7 @@
     .main_menu_signup {
         position: absolute;
         right: 5px;
-        top: 30px;
+        top: 20px;
         font-size: 1.3rem;
         font-weight: bold;
     }
@@ -42,6 +95,10 @@
 
     .search_subtitle {
         margin-left: 20px;
+    }
+
+    .search_form {
+        width: 90%;
     }
 
     .search_filters {
@@ -64,6 +121,8 @@
     .hosting_wrapper {
         order: 2;
         background-color: white;
+        padding: 5px;
+        margin-top: 20px;
     }
 
     .hosting_cards_rows {
@@ -78,6 +137,7 @@
         order: 1;
         margin-left: 0px;
         border-radius: 0px;
+        padding: 5px;
     }
 
     .activities_title {
