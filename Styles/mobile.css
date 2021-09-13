@@ -15,6 +15,10 @@
         margin: 10px;
     }
 
+    h1 {
+        margin: 20px 40px 5px 20px;
+    }
+
     footer {
         display: flex;
         flex-direction: column;
@@ -30,5 +34,79 @@
         top: 30px;
         font-size: 1.3rem;
         font-weight: bold;
+    }
+
+    .search {
+        margin-left: 40px;
+    }
+
+    .search_subtitle {
+        margin-left: 20px;
+    }
+
+    .search_filters {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .search_filters_choices {
+        width: fit-content;
+    }
+
+    .search_info_text {
+        margin-right: 40px;
+    }
+
+    .hosting {
+        flex-direction: column;
+    }
+
+    .hosting_wrapper {
+        order: 2;
+        background-color: white;
+    }
+
+    .hosting_cards_rows {
+        flex-direction: column;
+    }
+
+    .hosting_cards_card_picture img {
+        width: 100%;
+    }
+
+    .most_popular_wrapper {
+        order: 1;
+        margin-left: 0px;
+        border-radius: 0px;
+    }
+
+    .activities_title {
+        margin-left: 25px;
+    }
+
+    .activities_wrapper {
+        flex-direction: column;
+    }
+
+    .activities_column_full1,
+    .activities_column_full2 {
+        height: 205px;
+        width: auto;
+        margin: 10px 25px 15px 25px;
+    }
+
+    .activities_column2,
+    .activities_column4 {
+        width: auto;
+        height: auto;
+        margin: 10px 25px 15px 25px;
+    }
+
+    .activities_column_full_picture img {
+        height:150px;
+    }
+
+    .activity2_picture img, .activity6_picture img {
+        height: 150px;
     }
 }    

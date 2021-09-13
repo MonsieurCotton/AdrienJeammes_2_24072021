@@ -35,6 +35,11 @@
     box-sizing: border-box;
 }
 
+.hosting_cards_card:hover {
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.30),3px 3px 12px rgba(0, 0, 0, 0.1);
+    transition-duration: 0.2s;
+}
+
 .hosting_cards_flex {
     display: flex;
     flex-direction: column;
@@ -73,6 +78,11 @@
     border-radius: 1.25rem;
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.30),3px 3px 6px rgba(0, 0, 0, 0.1);
     transition-duration: 0.1s;
+}
+
+.most_popular_cards:hover {
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.30),3px 3px 12px rgba(0, 0, 0, 0.1);
+    transition-duration: 0.2s;
 }
 
 .most_popular_title {
