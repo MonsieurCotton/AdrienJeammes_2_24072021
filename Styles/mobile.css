@@ -3,6 +3,7 @@
     #bloc_page {
         margin: auto;
         font-family: 'Raleway', sans-serif;
+        max-width: 576px;
     }
 
     .top_section {
@@ -10,7 +11,8 @@
         flex-direction: column;
     }
     .logo {
-        width: 20%;
+        width: 50%;
+        margin: 10px;
     }
 
     footer {
@@ -25,12 +27,8 @@
     .main_menu_signup {
         position: absolute;
         right: 5px;
-        top: 40px;
+        top: 30px;
         font-size: 1.3rem;
         font-weight: bold;
-    }
-
-    ul.main_menu_list {
-
     }
 }    

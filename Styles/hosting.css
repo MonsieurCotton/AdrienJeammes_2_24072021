@@ -3,6 +3,10 @@
     flex-direction: row;
 }
 
+.hosting_title {
+    margin-left: 1.5rem;
+}
+
 .hosting_wrapper {
     background-color: #F2F2F2;
     border-radius: 1.25rem;
@@ -13,7 +17,7 @@
 .most_popular_wrapper {
     background-color: #F2F2F2;
     border-radius: 1.25rem;
-    padding: 2rem;
+    padding: 1.5rem;
     flex-grow: 1;
     margin-left: 2rem;
 }
@@ -22,14 +26,14 @@
     display: flex;
     flex-direction: column;
     background-color: white;
-    margin: 1.2rem;
-    padding: 0.8rem;
+    margin: 1.25rem;
+    padding: 5px;
     border-radius: 1.25rem;
-    box-shadow: 0 0 16px #0000002e;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.30),3px 3px 6px rgba(0, 0, 0, 0.1);
     transition-duration: 0.1s;
-    cursor: pointer;
     flex-grow: 1;
-    }
+    box-sizing: border-box;
+}
 
 .hosting_cards_flex {
     display: flex;
@@ -39,36 +43,59 @@
 .hosting_cards_rows {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .hosting_cards_card_caption {
     line-height: 0.6rem;
+    margin-left: 0.6rem;
 }
 
 .hosting_cards_card_rating {
     display: inline;
+    margin-left: 0.6rem;
 }
 
 .hosting_cards_card_picture img {
-    border-radius: 1.25rem;
-    background-size: cover;
-    height: 200px;
-    width: 300px;
+    border-radius: 1rem 1rem 0rem 0rem;
+    object-fit: cover;
+    object-fit: cover;
+    width: 236px;
+    height: 112px;
 }
 
 .most_popular_cards {
+    display: flex;
+    flex-direction: row;
     background-color: white;
-    margin: 1.2rem;
-    padding: 0.8rem;
+    margin: 1.25rem;
+    padding: 5px;
     border-radius: 1.25rem;
-    box-shadow: 0 0 16px #0000002e;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.30),3px 3px 6px rgba(0, 0, 0, 0.1);
     transition-duration: 0.1s;
-    cursor: pointer;
-}  
+}
+
+.most_popular_title {
+    margin-left: 1.5rem;
+}
 
 .most_popular_cards_flex {
     display: flex;
     flex-direction: column;
 }
 
+.most_popular_cards_card_picture img {
+    border-radius: 1.25rem 0rem 0rem 1.25rem;
+    object-fit: cover;
+    width: 132px;
+    height: 132px;
+}
+
+.most_popular_cards_card_caption {
+    margin-left: 1rem;
+    padding-right: 1rem;
+}
+
+.most_popular_cards_card_rating {
+    display: inline;
+}

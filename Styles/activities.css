@@ -1,0 +1,107 @@
+.activities {
+    background-color: white;
+    margin-bottom: 3rem;
+}
+
+.activities_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.activities_column_full1 {
+    flex-grow: 1;
+    height: 500px;
+    width: 22%;
+    border-radius: 15px;
+    margin: 10px 0 10px 0;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.30),3px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.activities_column_full2 {
+    flex-grow: 1;
+    height: 500px;
+    width: 22%;
+    border-radius: 15px;
+    margin: 10px 0 10px 0;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.30),3px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.activities_column_full1:hover,
+.activities_column_full2:hover {
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.30),3px 3px 12px rgba(0, 0, 0, 0.1);
+    transition-duration: 0.2s;
+}
+
+.activities_column2 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 500px;
+    width: 22%;
+    margin: 10px 25px 10px 25px;
+}
+
+.activities_column4 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 500px;
+    width: 22%;
+    margin: 10px 0 10px 25px;
+}
+
+.activities_card_title {
+    padding-left: 16px;
+}
+
+.activities_column_full_card {
+    display: flex;
+    flex-direction: column;
+}
+
+.activity2_card,
+.activity3_card,
+.activity5_card,
+.activity6_card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.30),3px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.activity2_card:hover,
+.activity3_card:hover,
+.activity5_card:hover,
+.activity6_card:hover {
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.30),3px 3px 12px rgba(0, 0, 0, 0.1);
+    transition-duration: 0.2s;
+}
+
+.activities_column_full_picture img {
+    height: 440px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    
+}
+
+.activity2_picture img,
+.activity6_picture img {
+    object-fit: cover;
+    height: 210px;
+    border-radius: 10px 10px 0 0;
+}
+
+.activity3_picture img,
+.activity5_picture img {
+    object-fit: cover;
+    height: 150px;
+    border-radius: 10px 10px 0 0;
+}
+    
+.activity2,
+.activity5 {
+    margin-bottom: 25px;
+}
+
