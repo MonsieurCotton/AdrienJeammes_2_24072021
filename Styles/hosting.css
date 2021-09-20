@@ -29,14 +29,14 @@
     margin: 1.25rem;
     padding: 5px;
     border-radius: 1.25rem;
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.30),3px 3px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 6px lightgray,3px 3px 6px lightgray;
     transition-duration: 0.1s;
     flex-grow: 1;
     box-sizing: border-box;
 }
 
 .hosting_cards_card:hover {
-    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.30),3px 3px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 12px lightgray,3px 3px 12px lightgray;
     transition-duration: 0.2s;
 }
 
@@ -76,12 +76,13 @@
     margin: 1.25rem;
     padding: 5px;
     border-radius: 1.25rem;
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.30),3px 3px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 6px lightgray,3px 3px 6px lightgray;
     transition-duration: 0.1s;
+    height: 140px;
 }
 
 .most_popular_cards:hover {
-    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.30),3px 3px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 12px lightgray,3px 3px 12px lightgray;
     transition-duration: 0.2s;
 }
 
@@ -98,7 +99,7 @@
     border-radius: 1.25rem 0rem 0rem 1.25rem;
     object-fit: cover;
     width: 132px;
-    height: 132px;
+    height: 100%;
 }
 
 .most_popular_cards_card_caption {

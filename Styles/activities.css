@@ -16,7 +16,7 @@
     width: 22%;
     border-radius: 15px;
     margin: 10px 0 10px 0;
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.30),3px 3px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 6px lightgray,3px 3px 6px lightgray;
 }
 
 .activities_column_full2 {
@@ -25,12 +25,12 @@
     width: 22%;
     border-radius: 15px;
     margin: 10px 0 10px 0;
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.30),3px 3px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 6px lightgray,3px 3px 6px lightgray;
 }
 
 .activities_column_full1:hover,
 .activities_column_full2:hover {
-    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.30),3px 3px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 12px lightgray,3px 3px 12px lightgray;
     transition-duration: 0.2s;
 }
 
@@ -68,14 +68,14 @@
     display: flex;
     flex-direction: column;
     border-radius: 10px;
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.30),3px 3px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 6px lightgray,3px 3px 6px lightgray;
 }
 
 .activity2_card:hover,
 .activity3_card:hover,
 .activity5_card:hover,
 .activity6_card:hover {
-    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.30),3px 3px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 12px lightgray,3px 3px 12px lightgray;
     transition-duration: 0.2s;
 }
 

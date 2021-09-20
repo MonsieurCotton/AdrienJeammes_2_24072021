@@ -24,6 +24,10 @@
         margin-top: 0px;
     }
 
+    .main_menu_list li {
+        padding-top: 0px;
+    }
+
     .main_menu_list li:first-child {
         border-bottom: 2px solid #0065FC;
         border-top: none;
@@ -103,11 +107,20 @@
 
     .search_filters {
         display: flex;
-        flex-direction: column;
     }
 
     .search_filters_choices {
         width: fit-content;
+    }
+
+    .search_filters_choices_name {
+        margin: 0.5rem 0.5rem;
+        font-size: 16px;
+    }
+
+    .search_filters_choices_icon {
+        min-height: 3rem;
+        min-width: 3rem;
     }
 
     .search_info_text {
