@@ -105,6 +105,10 @@
         width: 90%;
     }
 
+    .search_form_input {
+        padding: 0 0.5rem;
+    }
+
     .search_filters {
         display: flex;
     }
@@ -115,7 +119,7 @@
 
     .search_filters_choices_name {
         margin: 0.5rem 0.5rem;
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .search_filters_choices_icon {
@@ -125,6 +129,10 @@
 
     .search_info_text {
         margin-right: 40px;
+    }
+
+    .search_form_input_submit_text {
+        display: none;
     }
 
     .hosting {
@@ -181,5 +189,13 @@
 
     .activity2_picture img, .activity6_picture img {
         height: 150px;
+    }
+
+    .hosting_cards_card_rating_icon {
+        font-size: 12px;
+    }
+
+    i.search_form_input_submit_icon {
+        display: block;
     }
 }    

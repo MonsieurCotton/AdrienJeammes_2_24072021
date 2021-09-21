@@ -36,7 +36,7 @@
 }
 
 .hosting_cards_card:hover {
-    box-shadow: 3px 3px 12px lightgray,3px 3px 12px lightgray;
+    box-shadow: 3px 3px 14px lightgray,3px 3px 14px lightgray;
     transition-duration: 0.2s;
 }
 
@@ -69,7 +69,7 @@
     height: 112px;
 }
 
-.most_popular_cards {
+.most_popular_card {
     display: flex;
     flex-direction: row;
     background-color: white;
@@ -81,8 +81,8 @@
     height: 140px;
 }
 
-.most_popular_cards:hover {
-    box-shadow: 3px 3px 12px lightgray,3px 3px 12px lightgray;
+.most_popular_card:hover {
+    box-shadow: 3px 3px 14px lightgray,3px 3px 14px lightgray;
     transition-duration: 0.2s;
 }
 
@@ -105,8 +105,16 @@
 .most_popular_cards_card_caption {
     margin-left: 1rem;
     padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .most_popular_cards_card_rating {
     display: inline;
+}
+
+.most_popular_cards_card_caption h3 {
+    margin-bottom: 0px;
 }

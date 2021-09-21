@@ -1,0 +1,21 @@
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    #bloc_page {
+        margin: auto;
+        font-family: 'Raleway', sans-serif;
+        max-width: 992px;
+    }
+
+    .hosting_wrapper {
+        order: 2;
+        background-color: white;
+        padding: 5px;
+        margin-top: 20px;
+    }
+
+    .most_popular_wrapper {
+        order: 1;
+        margin-left: 0px;
+        border-radius: 0px;
+        padding: 5px;
+    }
+}

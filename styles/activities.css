@@ -30,7 +30,7 @@
 
 .activities_column_full1:hover,
 .activities_column_full2:hover {
-    box-shadow: 3px 3px 12px lightgray,3px 3px 12px lightgray;
+    box-shadow: 3px 3px 14px lightgray,3px 3px 14px lightgray;
     transition-duration: 0.2s;
 }
 
@@ -75,7 +75,7 @@
 .activity3_card:hover,
 .activity5_card:hover,
 .activity6_card:hover {
-    box-shadow: 3px 3px 12px lightgray,3px 3px 12px lightgray;
+    box-shadow: 3px 3px 14px lightgray,3px 3px 14px lightgray;
     transition-duration: 0.2s;
 }
 

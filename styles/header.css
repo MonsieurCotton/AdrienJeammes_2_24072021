@@ -185,3 +185,7 @@ form.search_form {
     justify-content: center;
     margin-right: 1rem;
 }
+
+i.search_form_input_submit_icon {
+    display: none;
+}
