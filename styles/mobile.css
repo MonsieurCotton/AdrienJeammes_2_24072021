@@ -1,4 +1,4 @@
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 775px) {
     
     #bloc_page {
         margin: auto;
@@ -69,6 +69,7 @@
 
     h3 {
         font-size: 16px;
+        line-height: 1rem;
     }
 
     h4 {
@@ -152,6 +153,7 @@
 
     .hosting_cards_card_picture img {
         width: 100%;
+        height: 150px;
     }
 
     .most_popular_wrapper {
@@ -159,6 +161,10 @@
         margin-left: 0px;
         border-radius: 0px;
         padding: 5px;
+    }
+
+    .activities {
+        padding: 0rem;
     }
 
     .activities_title {
@@ -199,3 +205,6 @@
         display: block;
     }
 }    
+
+
+}
